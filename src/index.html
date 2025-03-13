@@ -1,5 +1,103 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+        .container {
+            text-align: center;
+            padding: 2em;
+        }
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        section {
+            padding: 2em;
+            margin: 2em 0;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Carmela's Portfolio</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <div class="container">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Carmela S. Moya</h1>
+        <p>Welcome to my portfolio. Here you will find information about my projects and skills.</p>
+    </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Carmela. I'm a software developer with a passion for creating innovative solutions.</p>
+        <h2>Skills</h2>
+        <p>Here are some of the skills I have acquired:</p>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+        </ul>
+    
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li>Project 1: Description</li>
+            <li>Project 2: Description</li>
+            <li>Project 3: Description</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at <a href="mailto:carmelamoya6@gmail.com">carmelamoya6@gmail.com</a>.</p>
+    </section>
+    
+</body>
+</html>
